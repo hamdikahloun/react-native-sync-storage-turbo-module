@@ -5,10 +5,19 @@ React Native Sync Storage: Turbo Native Module
 Turbo Native Modules only work with the New Architecture enabled.
 ```
 
+## Features
+
+* **Fully synchronous** calls, no async/await, no Promises, no Bridge.
+* **faster than AsyncStorage**
+* Uses [**JSI**](https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules) instead of the "old" Bridge
+* **iOS** and **Android** support
+
 ## Installation
 
 ```sh
 npm install react-native-sync-storage-turbo-module
+
+yarn react-native-sync-storage-turbo-module
 ```
 
 ## Usage
