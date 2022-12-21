@@ -964,7 +964,7 @@ SPEC CHECKSUMS:
   React-jsinspector: 60769e5a0a6d4b32294a2456077f59d0266f9a8b
   React-logger: 1623c216abaa88974afce404dc8f479406bbc3a0
   react-native-safe-area-context: 2f75b317784a1a8e224562941e50ecbc932d2097
-  react-native-sync-storage: 7aff8b5dfa749af1066179759448e93e142956e7
+  react-native-sync-storage: 6af8f1a39fe025fc7c58026ab4a833161d361fb1
   React-perflogger: 8c79399b0500a30ee8152d0f9f11beae7fc36595
   React-RCTActionSheet: 7316773acabb374642b926c19aef1c115df5c466
   React-RCTAnimation: 5341e288375451297057391227f691d9b2326c3d
