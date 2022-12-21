@@ -1,4 +1,4 @@
-# react-native-sync-storage
+# react-native-sync-storage-turbo-module
 
 React Native Sync Storage: Turbo Native Module
 ```sh
@@ -8,14 +8,14 @@ Turbo Native Modules only work with the New Architecture enabled.
 ## Installation
 
 ```sh
-npm install react-native-sync-storage
+npm install react-native-sync-storage-turbo-module
 ```
 
 ## Usage
 
 
 ```js
-import { setItem, getItem } from 'react-native-sync-storage';
+import { setItem, getItem } from 'react-native-sync-storage-turbo-module';
 
 // ...
 
