@@ -1,6 +1,9 @@
 # react-native-sync-storage
 
-React Native Sync Storage
+React Native Sync Storage: Turbo Native Module
+```sh
+Turbo Native Modules only work with the New Architecture enabled.
+```
 
 ## Installation
 
