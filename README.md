@@ -12,11 +12,12 @@ npm install react-native-sync-storage
 
 
 ```js
-import { multiply } from 'react-native-sync-storage';
+import { setItem, getItem } from 'react-native-sync-storage';
 
 // ...
 
-const result = multiply(3, 7);
+setItem('myKey', 'My Value');
+const value = getItem('myKey')
 ```
 
 ## Contributing

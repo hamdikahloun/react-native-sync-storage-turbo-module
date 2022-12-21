@@ -1,5 +1,13 @@
 const SyncStorage = require('./NativeSyncStorage').default;
 
-export function multiply(a: number, b: number): number {
-  return SyncStorage.multiply(a, b);
-}
+export const getItem = (key: string): string => {
+  return SyncStorage.getItem(key);
+};
+
+export const setItem = (key: string, value: string) => {
+  return SyncStorage.setItem(key, value);
+};
+
+export const removeItem = (key: string) => {
+  return SyncStorage.removeItem(key);
+};
