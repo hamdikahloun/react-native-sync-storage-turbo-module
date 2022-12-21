@@ -39,7 +39,11 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "storage",
+    "turbo",
+    "module",
+    "jsi"
   ],
   "repository": "https://github.com/hamdikahloun/react-native-sync-storage",
   "author": "Hamdi Kahloun <hamdikahlounacil@gmail.com> (https://github.com/hamdikahloun)",
