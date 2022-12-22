@@ -1,6 +1,6 @@
 {
   "name": "react-native-sync-storage-turbo-module",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Turbo Module React Native Sync Storage",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
