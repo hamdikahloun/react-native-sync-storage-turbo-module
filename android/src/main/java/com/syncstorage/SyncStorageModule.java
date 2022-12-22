@@ -6,7 +6,11 @@ import android.content.SharedPreferences;
 import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.WritableArray;
+import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.module.annotations.ReactModule;
+
+import java.util.Set;
 
 @ReactModule(name = SyncStorageModule.NAME)
 public class SyncStorageModule extends NativeSyncStorageSpec {
@@ -34,6 +38,20 @@ public class SyncStorageModule extends NativeSyncStorageSpec {
   @Override
   public void removeItem(String key) {
     editor.remove(key).apply();
+  }
+
+  @Override
+  public void clear() {
+    editor.clear().apply();
+  }
+
+  @Override
+  public WritableArray getAllKeys() {
+    WritableArray keys = new WritableNativeArray();
+    for (String key : sharedPref.getAll().keySet()) {
+      keys.pushString(key);
+    }
+    return keys;
   }
 
   @Override

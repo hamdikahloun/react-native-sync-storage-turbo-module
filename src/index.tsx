@@ -11,3 +11,11 @@ export const setItem = (key: string, value: string) => {
 export const removeItem = (key: string) => {
   return SyncStorage.removeItem(key);
 };
+
+export const clear = () => {
+  return SyncStorage.clear();
+};
+
+export const getAllKeys = (): string[] => {
+  return SyncStorage.getAllKeys();
+};

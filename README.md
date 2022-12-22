@@ -26,12 +26,19 @@ yarn add react-native-sync-storage-turbo-module
 
 
 ```js
-import { setItem, getItem } from 'react-native-sync-storage-turbo-module';
+import { setItem, getItem, getAllKeys } from 'react-native-sync-storage-turbo-module';
 
 // ...
 
 setItem('myKey', 'My Value');
-const value = getItem('myKey')
+
+const value = getItem('myKey');
+
+const keys = getAllKeys()
+
+removeItem('myKey')
+
+clear()
 ```
 
 # redux-persist storage wrapper

@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import { setItem, removeItem } from 'react-native-sync-storage';
+import { setItem, removeItem } from 'react-native-sync-storage-turbo-module';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ParamListBase, useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';

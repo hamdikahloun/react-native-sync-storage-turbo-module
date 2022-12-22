@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import { getItem } from 'react-native-sync-storage';
+import { getItem } from 'react-native-sync-storage-turbo-module';
 
 export const ReadDataScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();

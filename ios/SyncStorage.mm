@@ -29,4 +29,18 @@ NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
     [preferences synchronize];
 }
 
+- (void)clear {
+    [preferences removePersistentDomainForName:[[NSBundle mainBundle] bundleIdentifier]];
+    [preferences synchronize];
+}
+
+- (NSArray<NSString *> *)getAllKeys {
+    NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
+    NSDictionary *dict = [preferences persistentDomainForName:bundleIdentifier];
+    NSArray *keys = [dict allKeys];
+    return keys;
+}
+
+
+
 @end
