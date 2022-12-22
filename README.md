@@ -19,7 +19,7 @@ npm install react-native-sync-storage-turbo-module
 ```
 
 ```sh
-yarn react-native-sync-storage-turbo-module
+yarn add react-native-sync-storage-turbo-module
 ```
 
 ## Usage
