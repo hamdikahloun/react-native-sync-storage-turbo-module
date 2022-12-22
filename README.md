@@ -16,7 +16,9 @@ Turbo Native Modules only work with the New Architecture enabled.
 
 ```sh
 npm install react-native-sync-storage-turbo-module
+```
 
+```sh
 yarn react-native-sync-storage-turbo-module
 ```
 
